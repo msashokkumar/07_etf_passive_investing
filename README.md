@@ -43,6 +43,7 @@ This version of the software is operating system agnostic.
 - hvplot
 - pyviz
 - sqlalchemy
+- voila
 
 ### Running the Analyzer
 
@@ -71,6 +72,7 @@ Install the required python packages.
 ```bash
 conda install hvplot
 conda install sqlalchemy
+pip install voila
 ```
 
 Clone the remote repository to your local developer environment and `cd` into the folder.
@@ -86,6 +88,20 @@ jupyter lab
 ```
 
 Open and execute the file `etf_analyzer.ipynb`
+
+### Running the Analyzer via Voila
+
+Navigate to the project folder and run the following:
+
+```bash
+voila etf_analyzer.ipynb
+```
+
+This will open up a new browser with the notebook hosted as shown below:
+
+![Voila 1](/media/images/voila-1.png?raw=true "Voila 1")
+![Voila 2](/media/images/voila-2.png?raw=true "Voila 2")
+![Voila 3](/media/images/voila-3.png?raw=true "Voila 3")
 
 ---
 ## Contributors
